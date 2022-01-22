@@ -26,6 +26,8 @@ public class GoogleTest extends BaseClass {
 		log.info("Browser opened");
 		System.out.println("This is Git Demo 11");
 		System.out.println("This is Git Demo 22");
+		System.out.println("Gitstuff change 1");
+		System.out.println("Gitstuff change 2");
 	}
 	
 	@Test
@@ -37,5 +39,7 @@ public class GoogleTest extends BaseClass {
 		log.info("Title verified");
 		System.out.println("This is Git Demo 3");
 		System.out.println("This is Git Demo 4");
+		System.out.println("Gitstuff change 3");
+		System.out.println("Gitstuff change 4");
 	}
 }
