@@ -24,6 +24,8 @@ public class GoogleTest extends BaseClass {
 		driver.get("https://www.google.com");
 		//ExtentManager.reports.createTest("Browser Launched" ).log(Status.PASS, "Google Home Page opened");
 		log.info("Browser opened");
+		System.out.println("This is Git Demo 1");
+		System.out.println("This is Git Demo 2");
 	}
 	
 	@Test
@@ -33,5 +35,7 @@ public class GoogleTest extends BaseClass {
 		//ExtentManager.reports.createTest("Google Verification").log(Status.PASS, "Google Verify Title Passed");
 		log.info("please print");
 		log.info("Title verified");
+		System.out.println("This is Git Demo 3");
+		System.out.println("This is Git Demo 4");
 	}
 }
