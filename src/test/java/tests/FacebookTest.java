@@ -21,6 +21,7 @@ public class FacebookTest extends BaseClass{
 		driver.get("https://www.facebook.com");
 		//ExtentManager.reports.createTest("Browser Launched" ).log(Status.PASS, "Google Home Page opened");
 		log.info("Browser opened");
+		System.out.println("Gitstuff develop repo");
 		System.out.println("This is Git Demo 11 develop");
 		System.out.println("This is Git Demo 22");
 		System.out.println("Gitstuff change 1");
@@ -33,6 +34,7 @@ public class FacebookTest extends BaseClass{
 		Assert.assertEquals(driver.getTitle(), "Google");
 		//ExtentManager.reports.createTest("Google Verification").log(Status.PASS, "Google Verify Title Passed");
 		log.info("please print");
+		System.out.println("Gitstuff develop repo");
 		log.info("Title verified");
 		System.out.println("This is Git Demo 3 develop");
 		System.out.println("This is Git Demo 4");

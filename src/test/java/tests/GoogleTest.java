@@ -28,6 +28,7 @@ public class GoogleTest extends BaseClass {
 		System.out.println("This is Git Demo 22");
 		System.out.println("Gitstuff change 1");
 		System.out.println("Gitstuff change 2");
+		System.out.println("Gitstuff develop repo");
 	}
 	
 	@Test
@@ -37,6 +38,7 @@ public class GoogleTest extends BaseClass {
 		//ExtentManager.reports.createTest("Google Verification").log(Status.PASS, "Google Verify Title Passed");
 		log.info("please print");
 		log.info("Title verified");
+		System.out.println("Gitstuff develop repo");
 		System.out.println("This is Git Demo 3");
 		System.out.println("This is Git Demo 4");
 		System.out.println("Gitstuff change 3");
