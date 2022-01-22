@@ -24,8 +24,8 @@ public class GoogleTest extends BaseClass {
 		driver.get("https://www.google.com");
 		//ExtentManager.reports.createTest("Browser Launched" ).log(Status.PASS, "Google Home Page opened");
 		log.info("Browser opened");
-		System.out.println("This is Git Demo 1");
-		System.out.println("This is Git Demo 2");
+		System.out.println("This is Git Demo 11");
+		System.out.println("This is Git Demo 22");
 	}
 	
 	@Test
